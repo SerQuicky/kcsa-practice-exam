@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCSA Certification Exam</title>
+    <link rel="icon" type="image/png" href="images/kcsa-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- PSI-style Header -->
+    <header class="psi-header">
+        <div class="header-left">
+            <div class="header-logo">
+                <div class="header-logo-icon">
+                    <img src="images/kcsa-logo.png" alt="KCSA Logo" loading="lazy">
+                </div>
+                <span>KCSA</span>
+            </div>
+            <div class="header-divider"></div>
+            <span class="exam-title">Kubernetes and Cloud Native Security Associate</span>
+        </div>
+        <div class="header-right" id="headerRight">
+            <!-- Timer and End Exam will be inserted here during exam -->
+        </div>
+    </header>
+
+    <div id="app"></div>
+
+    <script src="questions-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
